@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Business Website</title>
+</head>
+<body>
+    <header>
+        <div class="logo">Your Business Name</div>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="showServices()">Services</a></li>
+                <li><a href="#" onclick="showContact()">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="services">
+            <h2>Our Services</h2>
+            <p>Discover the range of services we offer to meet your needs.</p>
+            <button onclick="navigateToHome()">Go to Home</button>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Get in touch with us for inquiries and more information.</p>
+            <button onclick="navigateToHome()">Go to Home</button>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2024 Your Business Name. All rights reserved.
+    </footer>
+
+    <script>
+        function showServices() {
+            alert("Showing Services Page");
+            // Additional logic for navigating or updating the DOM
+        }
+
+        function showContact() {
+            alert("Showing Contact Page");
+            // Additional logic for navigating or updating the DOM
+        }
+
+        function navigateToHome() {
+            alert("Navigating to Home Page");
+            // Additional logic for navigating or updating the DOM
+        }
+    </script>
+</body>
+</html>
